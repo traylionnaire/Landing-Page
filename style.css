@@ -1,0 +1,148 @@
+body {
+  font-family: arial;
+  padding: 0 36px;
+  margin: 0;
+  background-color: black;
+}
+
+.header, .first-section {
+  background-color: #1f2937;
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 208px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.link {
+  font-size: 18px;
+  color: #e5e7eb;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 24px
+}
+
+.main-text {
+  margin: 0;
+  font-weight: 900;
+  font-size: 48px;
+}
+
+.first-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  padding: 98px 208px;
+}
+
+.image {
+  background-color: antiquewhite;
+  color: #1f2937;
+  width: 1032px;
+  margin-left: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  margin: 0;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 8px 0;
+}
+
+button {
+  background-color: #3882f6;
+  border-width: 0;
+  color: white;
+  font-weight: 600;
+  width: 96px;
+  height: 32px;
+  margin: 0;
+  border-radius: 8px;
+}
+
+
+/* Second Section */
+.second-section {
+  margin: 0;
+  padding-bottom: 96px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.information-header {
+  padding: 48px;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.picture-container {
+  display: flex;
+  gap: 32px;
+}
+
+.content {
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 8px;
+}
+
+.content-image {
+  border: 4px solid #3882f6; 
+  border-radius: 16px;
+  width: 136px;
+  height: 136px;
+}
+
+.content p {
+  margin: 0;
+}
+
+/* Third Section */
+
+.third-section {
+  background-color: #e5e7eb;
+  padding: 4px 208px;
+  display: flex;
+  flex-direction: column;
+  padding: 128px 320px;
+  /* width: 900px; */
+}
+
+.third-section p {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1f2937;
+  margin: 0;
+}
+
+.quote-name { 
+  align-self: flex-end;
+  font-weight: 600;
+  padding-right: 16px;
+}
+
