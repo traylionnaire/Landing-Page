@@ -1,6 +1,6 @@
 body {
   font-family: arial;
-  padding: 0 36px;
+  /* padding: 0 36px; */
   margin: 0;
   background-color: black;
 }
@@ -191,4 +191,13 @@ body {
   height: 32px;
   margin: 0;
   border-radius: 8px;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding: 32px;
 }
