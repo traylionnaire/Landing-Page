@@ -66,7 +66,7 @@ body {
   padding: 8px 0;
 }
 
-button {
+.first-section button {
   background-color: #3882f6;
   border-width: 0;
   color: white;
@@ -129,7 +129,6 @@ button {
   display: flex;
   flex-direction: column;
   padding: 128px 320px;
-  /* width: 900px; */
 }
 
 .third-section p {
@@ -146,3 +145,50 @@ button {
   padding-right: 16px;
 }
 
+/* Fourth Section */
+.fourth-section {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  background-color: #3882f6;
+  margin: 128px;
+  display: flex;
+  padding: 48px 96px;
+  border-radius: 8px;
+  gap: 96px;
+}
+
+.fourth-section p {
+  margin: 0;
+}
+
+.call-to-action-header {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.call-to-action-text {
+  color: #e5e7eb;
+}
+
+.fourth-section-button-container {
+  display: flex;
+  align-items: center;
+}
+
+.fourth-section button {
+  background-color: #3882f6;
+  border-color: white;
+  border-width: 2px;
+  border-style: solid;
+  color: white;
+  font-weight: 600;
+  width: 96px;
+  height: 32px;
+  margin: 0;
+  border-radius: 8px;
+}
